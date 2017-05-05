@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h4>Website: imaination.github.io</h4>
-<h1>Making a Static html Webpage</h1>
+<span>Example Website:<a href="rurikoimai.com"></a></span>
+<h1>Making a Static html Webpage For Your Resume</h1>
 <h2>Basic File Layouts</h2>
 
 <table width="100%" border="0">
@@ -12,6 +12,8 @@
 	css<br>
 	javascript<br>
 	img<br>
+	Resume<br>
+	Portfolio<br>
       </td>
    </tr>
 </table>
