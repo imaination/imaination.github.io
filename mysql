@@ -1,0 +1,26 @@
+#mysql 
+mysql.server start
+mysql -uroot
+
+SHOW DATABASES;
+USE dataname;
+
+SHOW TABLES;
+DESCRIBE tablename;
+
+#create a tabel
+
+CREATE TABLE hs2_infos ( 
+id int NOT NULL AUTO_INCREMENT,
+hs2_code int,
+hs2_name varchar(50),
+PRIMARY KEY(id));
+
+LOAD
+
+--secure-file-priv
+#in terminal
+mysql --help | more
+#look for path to my.cnf
+/etc/my.cnf /etc/mysql/my.cnf /usr/local/etc/my.cnf ~/.my.cnf 
+q
